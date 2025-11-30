@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "jimeng-web"
-          entrypoint: "jimeng-web/server.ts"
+          entrypoint: "server.ts"
           root: "jimeng-web"
           
           
