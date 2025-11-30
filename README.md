@@ -62,8 +62,8 @@ Jimeng Web 是一个基于 React + TypeScript + Vite 构建的现代化 Web 应�
 5. 配置构建与启动命令：
    - **Root Directory**: `jimeng-web` (如果你的项目在仓库的子目录中)
    - **Build Command**: `npm install && npm run build`
-   - **Entrypoint**: `serve.ts`
-6. 点击 "Link" 或 "Deploy" 完成部署。Deno Deploy 将会执行构建命令生成 `dist` 目录，然后使用 `serve.ts` 脚本来托管静态文件。
+   - **Entrypoint**: `server.ts`
+6. 点击 "Link" 或 "Deploy" 完成部署。Deno Deploy 将会执行构建命令生成 `dist` 目录，然后使用 `server.ts` 脚本来托管静态文件。
 
 ## 项目结构
 
